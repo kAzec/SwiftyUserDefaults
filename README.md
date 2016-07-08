@@ -249,27 +249,6 @@ defaults["hotkey"].dataValue             // defaults to NSData()
 ```
 
 ## Installation
-
-#### CocoaPods
-
-If you're using CocoaPods, just add this line to your Podfile:
-
-```ruby
-pod 'Transient'
-```
-
-Install by running this command in your terminal:
-
-```sh
-pod install
-```
-
-Then import the library in all files where you use it:
-
-```swift
-import Transient
-```
-
 #### Carthage
 
 Just add to your Cartfile:
@@ -282,7 +261,7 @@ github "kAzec/Transient"
 
 Simply copy `Sources/*.swift` to your Xcode project.
 
-## More like this
+## More
 
 If you like Transient, check out [SwiftyTimer](https://github.com/radex/SwiftyTimer), which applies the same swifty approach to `NSTimer`.
 
@@ -304,6 +283,12 @@ Radek Pietruszewski
 * [twitter.com/radexp](http://twitter.com/radexp)
 * [radex.io](http://radex.io)
 * this.is@radex.io
+
+kAzec
+
+* [github.com/kAzec](http://github.com/kAzec)
+
+And other contributors.
 
 Transient is available under the MIT license. See the LICENSE file for more info.
 
