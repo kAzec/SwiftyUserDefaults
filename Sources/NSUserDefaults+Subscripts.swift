@@ -49,7 +49,7 @@ extension NSUserDefaults {
     }
 }
 
-// MARK: Subscripts for specific non-optional types.
+// MARK: - Subscripts for specific non-optional types.
 public extension NSUserDefaults {
     private func numberForKey(key: String) -> NSNumber? {
         return objectForKey(key) as? NSNumber
@@ -185,8 +185,8 @@ public extension NSUserDefaults {
         set { self[key.key] = newValue }
     }
     
-    subscript(key: UserDefaultsKey<[NSObject]>) -> [NSObject] {
-        get { return arrayForKey(key.key) as? [NSObject] ?? [] }
+    subscript(key: UserDefaultsKey<[AnyObject]>) -> [AnyObject] {
+        get { return arrayForKey(key.key) ?? [] }
         set { self[key.key] = newValue }
     }
     
@@ -196,7 +196,7 @@ public extension NSUserDefaults {
     }
 }
 
-// MARK: - Subscripts for optional collection types.
+// MARK: Subscripts for optional collection types.
 extension NSUserDefaults {
     func arrayForKey<T: _ObjectiveCBridgeable>(key: UserDefaultsKey<[T]?>) -> [T]? {
         return arrayForKey(key.key) as NSArray? as? [T]
@@ -238,8 +238,8 @@ public extension NSUserDefaults {
         set { self[key.key] = newValue }
     }
     
-    subscript(key: UserDefaultsKey<[NSObject]?>) -> [NSObject]? {
-        get { return arrayForKey(key.key) as? [NSObject] }
+    subscript(key: UserDefaultsKey<[AnyObject]?>) -> [AnyObject]? {
+        get { return arrayForKey(key.key) }
         set { self[key.key] = newValue }
     }
     

@@ -8,8 +8,8 @@
 
 import Foundation
 
-public extension NSUserDefaults {
-    class Keys {
+extension NSUserDefaults {
+    public class Keys {
         
     }
 }
@@ -25,13 +25,11 @@ public class UserDefaultsKey<T>: NSUserDefaults.Keys {
 }
 
 public extension NSUserDefaults {
-    /// Returns `true` if `key` exists
     func havingKey<T>(key: UserDefaultsKey<T>) -> Bool {
         return objectForKey(key.key) != nil
     }
     
-    /// Removes value for `key`
-    func removeObject<T>(forKey key: UserDefaultsKey<T>) {
+    func removeObjectForKey<T>(key: UserDefaultsKey<T>) {
         removeObjectForKey(key.key)
     }
 }

@@ -275,25 +275,25 @@ class SwiftyUserDefaultsTests: XCTestCase {
     
     // --
     
-    func testStaticNSObjectArrayOptional() {
-        let key = UserDefaultsKey<[NSObject]?>("nsarray")
+    func testStaticArrayOptional() {
+        let key = UserDefaultsKey<[AnyObject]?>("nsarray")
         XCTAssert(Defaults[key] == nil)
         Defaults[key] = []
-        XCTAssert(Defaults[key]! == [])
+        XCTAssert(Defaults[key]! as NSArray == [])
         Defaults[key] = [1, "foo", NSData()]
-        XCTAssert(Defaults[key]! == [1, "foo", NSData()])
+        XCTAssert(Defaults[key]! as NSArray == [1, "foo", NSData()])
     }
     
-    func testStaticNSObjectArray() {
-        let key = UserDefaultsKey<[NSObject]>("nsarray")
-        XCTAssert(Defaults[key] == [])
+    func testStaticArray() {
+        let key = UserDefaultsKey<[AnyObject]>("nsarray")
+        XCTAssert(Defaults[key] as NSArray == [])
         Defaults[key] = [1, "foo", NSData()]
-        XCTAssert(Defaults[key] == [1, "foo", NSData()])
+        XCTAssert(Defaults[key] as NSArray == [1, "foo", NSData()])
     }
     
-    func testMutatingStaticNSObjectArray() {
-        let key = UserDefaultsKey<[NSObject]>("array")
-        XCTAssert(Defaults[key] == [])
+    func testMutatingStaticArray() {
+        let key = UserDefaultsKey<[AnyObject]>("array")
+        XCTAssert(Defaults[key] as NSArray == [])
         Defaults[key].append(1)
         Defaults[key].append("foo")
         Defaults[key].append(false)

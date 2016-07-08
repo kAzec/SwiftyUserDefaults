@@ -75,7 +75,7 @@ public extension NSUserDefaults {
         if let value = value {
             self[key.key] = NSKeyedArchiver.archivedDataWithRootObject(value)
         } else {
-            removeObject(forKey: key)
+            removeObjectForKey(key.key)
         }
     }
     
