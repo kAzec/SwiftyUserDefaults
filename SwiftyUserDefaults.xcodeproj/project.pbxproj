@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CAB4F7E1D2F5E37000466F8 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F7D1D2F5E37000466F8 /* Proxy.swift */; };
+		4CAB4F7F1D2F5E37000466F8 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F7D1D2F5E37000466F8 /* Proxy.swift */; };
+		4CAB4F801D2F5E37000466F8 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F7D1D2F5E37000466F8 /* Proxy.swift */; };
+		4CAB4F811D2F5E37000466F8 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F7D1D2F5E37000466F8 /* Proxy.swift */; };
+		4CAB4F891D2F5E8D000466F8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F881D2F5E8D000466F8 /* Key.swift */; };
+		4CAB4F8A1D2F5E8D000466F8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F881D2F5E8D000466F8 /* Key.swift */; };
+		4CAB4F8B1D2F5E8D000466F8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F881D2F5E8D000466F8 /* Key.swift */; };
+		4CAB4F8C1D2F5E8D000466F8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F881D2F5E8D000466F8 /* Key.swift */; };
+		4CAB4F8E1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F8D1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift */; };
+		4CAB4F8F1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F8D1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift */; };
+		4CAB4F901D2F5F1D000466F8 /* NSUserDefaults+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F8D1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift */; };
+		4CAB4F911D2F5F1D000466F8 /* NSUserDefaults+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F8D1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift */; };
+		4CAB4F931D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */; };
+		4CAB4F941D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */; };
+		4CAB4F951D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */; };
+		4CAB4F961D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */; };
 		52368ED71BE79AA60082969A /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52368ED81BE79AAC0082969A /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* SwiftyUserDefaults.swift */; };
+		52368ED81BE79AAC0082969A /* NSUserDefaults+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */; };
 		52368EE21BE79B350082969A /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52368ECF1BE79A9B0082969A /* SwiftyUserDefaults.framework */; };
 		52368EE81BE79B530082969A /* SwiftyUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EB01B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift */; };
 		52368EE91BE79B560082969A /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E903A8B1B66338C004CDFC4 /* TestHelper.swift */; };
 		52E1694D1BE808B200116EA1 /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52E1694E1BE808B900116EA1 /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* SwiftyUserDefaults.swift */; };
+		52E1694E1BE808B900116EA1 /* NSUserDefaults+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */; };
 		6E903A8C1B66338C004CDFC4 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E903A8B1B66338C004CDFC4 /* TestHelper.swift */; };
 		6E903A8D1B66338C004CDFC4 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E903A8B1B66338C004CDFC4 /* TestHelper.swift */; };
 		70264EA41B0DF85200B32B18 /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70264EAA1B0DF85300B32B18 /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70264E9E1B0DF85200B32B18 /* SwiftyUserDefaults.framework */; };
 		70264EB11B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EB01B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift */; };
-		70264EBB1B0DF8B900B32B18 /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* SwiftyUserDefaults.swift */; };
-		70264EBE1B0E2FB400B32B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70264EBD1B0E2FB400B32B18 /* Foundation.framework */; };
+		70264EBB1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */; };
 		D9D2CFB41B54AAF700D6ABCE /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D2CFAA1B54AAF600D6ABCE /* SwiftyUserDefaults.framework */; };
 		D9D2CFC11B54AB2F00D6ABCE /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9D2CFC21B54AB3500D6ABCE /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* SwiftyUserDefaults.swift */; };
+		D9D2CFC21B54AB3500D6ABCE /* NSUserDefaults+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */; };
 		D9D2CFC31B54AB3B00D6ABCE /* SwiftyUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EB01B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +67,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CAB4F7D1D2F5E37000466F8 /* Proxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		4CAB4F881D2F5E8D000466F8 /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		4CAB4F8D1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Functions.swift"; sourceTree = "<group>"; };
+		4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Subscripts.swift"; sourceTree = "<group>"; };
 		52368ECF1BE79A9B0082969A /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52368EDD1BE79B350082969A /* SwiftyUserDefaults tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyUserDefaults tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E169451BE8089000116EA1 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +81,7 @@
 		70264EA91B0DF85300B32B18 /* SwiftyUserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyUserDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70264EAF1B0DF85300B32B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70264EB01B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyUserDefaultsTests.swift; sourceTree = "<group>"; };
-		70264EBA1B0DF8B900B32B18 /* SwiftyUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyUserDefaults.swift; sourceTree = "<group>"; };
-		70264EBD1B0E2FB400B32B18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Archive.swift"; sourceTree = "<group>"; };
 		D9D2CFAA1B54AAF600D6ABCE /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D2CFB31B54AAF600D6ABCE /* SwiftyUserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyUserDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,7 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70264EBE1B0E2FB400B32B18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,10 +142,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CAB4F7C1D2F5B35000466F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */,
+				70264EA21B0DF85200B32B18 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CAB4F871D2F5E6E000466F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB4F8D1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift */,
+				4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */,
+				70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		70264E941B0DF85200B32B18 = {
 			isa = PBXGroup;
 			children = (
-				70264EBD1B0E2FB400B32B18 /* Foundation.framework */,
 				70264EA01B0DF85200B32B18 /* SwiftyUserDefaults */,
 				70264EAD1B0DF85300B32B18 /* Tests */,
 				70264E9F1B0DF85200B32B18 /* Products */,
@@ -152,9 +187,10 @@
 		70264EA01B0DF85200B32B18 /* SwiftyUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */,
-				70264EBA1B0DF8B900B32B18 /* SwiftyUserDefaults.swift */,
-				70264EA21B0DF85200B32B18 /* Info.plist */,
+				4CAB4F871D2F5E6E000466F8 /* Extensions */,
+				4CAB4F7D1D2F5E37000466F8 /* Proxy.swift */,
+				4CAB4F881D2F5E8D000466F8 /* Key.swift */,
+				4CAB4F7C1D2F5B35000466F8 /* Supporting Files */,
 			);
 			name = SwiftyUserDefaults;
 			path = Sources;
@@ -454,7 +490,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52368ED81BE79AAC0082969A /* SwiftyUserDefaults.swift in Sources */,
+				4CAB4F801D2F5E37000466F8 /* Proxy.swift in Sources */,
+				4CAB4F901D2F5F1D000466F8 /* NSUserDefaults+Functions.swift in Sources */,
+				4CAB4F951D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */,
+				4CAB4F8B1D2F5E8D000466F8 /* Key.swift in Sources */,
+				52368ED81BE79AAC0082969A /* NSUserDefaults+Archive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +511,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E1694E1BE808B900116EA1 /* SwiftyUserDefaults.swift in Sources */,
+				4CAB4F811D2F5E37000466F8 /* Proxy.swift in Sources */,
+				4CAB4F911D2F5F1D000466F8 /* NSUserDefaults+Functions.swift in Sources */,
+				4CAB4F961D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */,
+				4CAB4F8C1D2F5E8D000466F8 /* Key.swift in Sources */,
+				52E1694E1BE808B900116EA1 /* NSUserDefaults+Archive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +523,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70264EBB1B0DF8B900B32B18 /* SwiftyUserDefaults.swift in Sources */,
+				4CAB4F7E1D2F5E37000466F8 /* Proxy.swift in Sources */,
+				4CAB4F8E1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift in Sources */,
+				4CAB4F931D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */,
+				4CAB4F891D2F5E8D000466F8 /* Key.swift in Sources */,
+				70264EBB1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +544,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D2CFC21B54AB3500D6ABCE /* SwiftyUserDefaults.swift in Sources */,
+				4CAB4F7F1D2F5E37000466F8 /* Proxy.swift in Sources */,
+				4CAB4F8F1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift in Sources */,
+				4CAB4F941D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */,
+				4CAB4F8A1D2F5E8D000466F8 /* Key.swift in Sources */,
+				D9D2CFC21B54AB3500D6ABCE /* NSUserDefaults+Archive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

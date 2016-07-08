@@ -8,17 +8,17 @@
 import SwiftyUserDefaults
 
 extension NSUserDefaults {
-    subscript(key: DefaultsKey<NSColor?>) -> NSColor? {
+    subscript(key: UserDefaultsKey<NSColor?>) -> NSColor? {
         get { return unarchive(key) }
         set { archive(key, newValue) }
     }
     
-    subscript(key: DefaultsKey<NSColor>) -> NSColor {
+    subscript(key: UserDefaultsKey<NSColor>) -> NSColor {
         get { return unarchive(key) ?? .whiteColor() }
         set { archive(key, newValue) }
     }
     
-    subscript(key: DefaultsKey<[NSColor]>) -> [NSColor] {
+    subscript(key: UserDefaultsKey<[NSColor]>) -> [NSColor] {
         get { return unarchive(key) ?? [] }
         set { archive(key, newValue) }
     }
@@ -29,14 +29,14 @@ enum TestEnum: String {
 }
 
 extension NSUserDefaults {
-    subscript(key: DefaultsKey<TestEnum?>) -> TestEnum? {
+    subscript(key: UserDefaultsKey<TestEnum?>) -> TestEnum? {
         get { return unarchive(key) }
         set { archive(key, newValue) }
     }
 }
 
 extension NSUserDefaults {
-    subscript(key: DefaultsKey<TestEnum>) -> TestEnum {
+    subscript(key: UserDefaultsKey<TestEnum>) -> TestEnum {
         get { return unarchive(key) ?? .A }
         set { archive(key, newValue) }
     }
@@ -49,7 +49,7 @@ enum TestEnum2: Int {
 }
 
 extension NSUserDefaults {
-    subscript(key: DefaultsKey<TestEnum2?>) -> TestEnum2? {
+    subscript(key: UserDefaultsKey<TestEnum2?>) -> TestEnum2? {
         get { return unarchive(key) }
         set { archive(key, newValue) }
     }
