@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52368ECE1BE79A9B0082969A"
-               BuildableName = "SwiftyUserDefaults.framework"
-               BlueprintName = "SwiftyUserDefaults tvOS"
-               ReferencedContainer = "container:SwiftyUserDefaults.xcodeproj">
+               BlueprintIdentifier = "52E169441BE8089000116EA1"
+               BuildableName = "Transient.framework"
+               BlueprintName = "Transient watchOS"
+               ReferencedContainer = "container:Transient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52368EDC1BE79B350082969A"
-               BuildableName = "SwiftyUserDefaults tvOSTests.xctest"
-               BlueprintName = "SwiftyUserDefaults tvOSTests"
-               ReferencedContainer = "container:SwiftyUserDefaults.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52368ECE1BE79A9B0082969A"
-            BuildableName = "SwiftyUserDefaults.framework"
-            BlueprintName = "SwiftyUserDefaults tvOS"
-            ReferencedContainer = "container:SwiftyUserDefaults.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52368ECE1BE79A9B0082969A"
-            BuildableName = "SwiftyUserDefaults.framework"
-            BlueprintName = "SwiftyUserDefaults tvOS"
-            ReferencedContainer = "container:SwiftyUserDefaults.xcodeproj">
+            BlueprintIdentifier = "52E169441BE8089000116EA1"
+            BuildableName = "Transient.framework"
+            BlueprintName = "Transient watchOS"
+            ReferencedContainer = "container:Transient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52368ECE1BE79A9B0082969A"
-            BuildableName = "SwiftyUserDefaults.framework"
-            BlueprintName = "SwiftyUserDefaults tvOS"
-            ReferencedContainer = "container:SwiftyUserDefaults.xcodeproj">
+            BlueprintIdentifier = "52E169441BE8089000116EA1"
+            BuildableName = "Transient.framework"
+            BlueprintName = "Transient watchOS"
+            ReferencedContainer = "container:Transient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

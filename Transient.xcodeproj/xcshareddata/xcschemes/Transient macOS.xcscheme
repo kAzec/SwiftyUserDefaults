@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D9D2CFA91B54AAF600D6ABCE"
-               BuildableName = "SwiftyUserDefaults.framework"
-               BlueprintName = "SwiftyUserDefaults Mac"
-               ReferencedContainer = "container:SwiftyUserDefaults.xcodeproj">
+               BuildableName = "Transient.framework"
+               BlueprintName = "Transient macOS"
+               ReferencedContainer = "container:Transient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D9D2CFB21B54AAF600D6ABCE"
-               BuildableName = "SwiftyUserDefaultsTests.xctest"
-               BlueprintName = "SwiftyUserDefaults MacTests"
-               ReferencedContainer = "container:SwiftyUserDefaults.xcodeproj">
+               BuildableName = "Transient iOS.xctest"
+               BlueprintName = "Transient macOSTests"
+               ReferencedContainer = "container:Transient.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9D2CFA91B54AAF600D6ABCE"
-            BuildableName = "SwiftyUserDefaults.framework"
-            BlueprintName = "SwiftyUserDefaults Mac"
-            ReferencedContainer = "container:SwiftyUserDefaults.xcodeproj">
+            BuildableName = "Transient.framework"
+            BlueprintName = "Transient macOS"
+            ReferencedContainer = "container:Transient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9D2CFA91B54AAF600D6ABCE"
-            BuildableName = "SwiftyUserDefaults.framework"
-            BlueprintName = "SwiftyUserDefaults Mac"
-            ReferencedContainer = "container:SwiftyUserDefaults.xcodeproj">
+            BuildableName = "Transient.framework"
+            BlueprintName = "Transient macOS"
+            ReferencedContainer = "container:Transient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9D2CFA91B54AAF600D6ABCE"
-            BuildableName = "SwiftyUserDefaults.framework"
-            BlueprintName = "SwiftyUserDefaults Mac"
-            ReferencedContainer = "container:SwiftyUserDefaults.xcodeproj">
+            BuildableName = "Transient.framework"
+            BlueprintName = "Transient macOS"
+            ReferencedContainer = "container:Transient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

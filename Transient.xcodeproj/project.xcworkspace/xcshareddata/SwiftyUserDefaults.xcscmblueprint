@@ -9,12 +9,12 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BB620EA9-8263-4077-9BB5-9C597D882B60",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "C96EA2ED506E396E70D5A08FD4A6BB18D1CBD22C" : "SwiftyUserDefaults\/",
+    "C96EA2ED506E396E70D5A08FD4A6BB18D1CBD22C" : "Transient\/",
     "0D13C6859F9799479DE910865737C81CE2610D1F" : "..\/.."
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftyUserDefaults",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Transient",
   "DVTSourceControlWorkspaceBlueprintVersion" : 203,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftyUserDefaults.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Transient.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/osel49\/awnwiremac.git",
@@ -22,7 +22,7 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D13C6859F9799479DE910865737C81CE2610D1F"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/radex\/SwiftyUserDefaults.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/radex\/Transient.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C96EA2ED506E396E70D5A08FD4A6BB18D1CBD22C"
     }

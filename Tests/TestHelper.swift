@@ -5,7 +5,7 @@
     typealias NSColor = UIColor
 #endif
 
-import SwiftyUserDefaults
+import Transient
 
 extension NSUserDefaults {
     subscript(key: UserDefaultsKey<NSColor?>) -> NSColor? {

@@ -1,13 +1,11 @@
-# SwiftyUserDefaults
+# Transient
 
 ![Platforms](https://img.shields.io/badge/platforms-ios%20%7C%20osx%20%7C%20watchos%20%7C%20tvos-lightgrey.svg)
-[![CI Status](https://api.travis-ci.org/radex/SwiftyUserDefaults.svg?branch=master)](https://travis-ci.org/radex/SwiftyUserDefaults)
-[![CocoaPods](http://img.shields.io/cocoapods/v/SwiftyUserDefaults.svg)](https://cocoapods.org/pods/SwiftyUserDefaults)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
 ![Swift version](https://img.shields.io/badge/swift-2.2-orange.svg)
 
 #### Modern Swift API for `NSUserDefaults`
-###### SwiftyUserDefaults makes user defaults enjoyable to use by combining expressive Swifty API with the benefits of static typing. Define your keys in one place, use value types easily, and get extra safety and convenient compile-time checks for free.
+###### Transient makes user defaults enjoyable to use by combining expressive Swifty API with the benefits of static typing. Define your keys in one place, use value types easily, and get extra safety and convenient compile-time checks for free.
 
 Read [Statically-typed NSUserDefaults](http://radex.io/swift/nsuserdefaults/static) for more information about this project.
 
@@ -24,7 +22,7 @@ Read [Statically-typed NSUserDefaults](http://radex.io/swift/nsuserdefaults/stat
 
 ## Features
 
-**There's only two steps to using SwiftyUserDefaults:**
+**There's only two steps to using Transient:**
 
 Step 1: Define your keys
 
@@ -50,7 +48,7 @@ defaults[.volume] += 0.1
 defaults[.strings] += "… can easily be extended!"
 
 // Use and modify typed arrays
-defaults[.libraries].append("SwiftyUserDefaults")
+defaults[.libraries].append("Transient")
 defaults[.libraries][0] += " 2.0"
 
 // Easily work with custom serialized types
@@ -64,7 +62,7 @@ The convenient dot syntax is only available if you define your keys by extending
 
 ### Define your keys
 
-To get the most out of SwiftyUserDefaults, define your user defaults keys ahead of time:
+To get the most out of Transient, define your user defaults keys ahead of time:
 
 ```swift
 let colorKey = UserDefaultsKey<String>("color")
@@ -108,7 +106,7 @@ defaults[.volume] += 0.1
 defaults[.strings] += "… can easily be extended!"
 
 // Use and modify typed arrays
-defaults[.libraries].append("SwiftyUserDefaults")
+defaults[.libraries].append("Transient")
 defaults[.libraries][0] += " 2.0"
 
 // Easily work with custom serialized types
@@ -118,7 +116,7 @@ defaults[.color]?.whiteComponent // => 1.0
 
 ### Supported types
 
-SwiftyUserDefaults supports all of the standard `NSUserDefaults` types, like strings, numbers, booleans, arrays and dictionaries.
+Transient supports all of the standard `NSUserDefaults` types, like strings, numbers, booleans, arrays and dictionaries.
 
 Here's a full table:
 
@@ -257,7 +255,7 @@ defaults["hotkey"].dataValue             // defaults to NSData()
 If you're using CocoaPods, just add this line to your Podfile:
 
 ```ruby
-pod 'SwiftyUserDefaults'
+pod 'Transient'
 ```
 
 Install by running this command in your terminal:
@@ -269,7 +267,7 @@ pod install
 Then import the library in all files where you use it:
 
 ```swift
-import SwiftyUserDefaults
+import Transient
 ```
 
 #### Carthage
@@ -277,7 +275,7 @@ import SwiftyUserDefaults
 Just add to your Cartfile:
 
 ```ruby
-github "kAzec/SwiftyUserDefaults"
+github "kAzec/Transient"
 ```
 
 #### Manually
@@ -286,7 +284,7 @@ Simply copy `Sources/*.swift` to your Xcode project.
 
 ## More like this
 
-If you like SwiftyUserDefaults, check out [SwiftyTimer](https://github.com/radex/SwiftyTimer), which applies the same swifty approach to `NSTimer`.
+If you like Transient, check out [SwiftyTimer](https://github.com/radex/SwiftyTimer), which applies the same swifty approach to `NSTimer`.
 
 You might also be interested in my blog posts which explain the design process behind those libraries:
 - [Swifty APIs: NSUserDefaults](http://radex.io/swift/nsuserdefaults/)
@@ -307,5 +305,5 @@ Radek Pietruszewski
 * [radex.io](http://radex.io)
 * this.is@radex.io
 
-SwiftyUserDefaults is available under the MIT license. See the LICENSE file for more info.
+Transient is available under the MIT license. See the LICENSE file for more info.
 

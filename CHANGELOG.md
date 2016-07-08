@@ -22,7 +22,7 @@
 
 - Added `removeAll()`
 - Added tvOS and watchOS support
-- Fixed error when linking SwiftyUserDefaults with app extension targets
+- Fixed error when linking Transient with app extension targets
 - Minor tweaks and fixes
 
 ### 2.0.0 (2015-09-18)

@@ -23,23 +23,23 @@
 		4CAB4F941D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */; };
 		4CAB4F951D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */; };
 		4CAB4F961D2F635F000466F8 /* NSUserDefaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */; };
-		52368ED71BE79AA60082969A /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52368ED71BE79AA60082969A /* Transient.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* Transient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52368ED81BE79AAC0082969A /* NSUserDefaults+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */; };
-		52368EE21BE79B350082969A /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52368ECF1BE79A9B0082969A /* SwiftyUserDefaults.framework */; };
-		52368EE81BE79B530082969A /* SwiftyUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EB01B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift */; };
+		52368EE21BE79B350082969A /* Transient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52368ECF1BE79A9B0082969A /* Transient.framework */; };
+		52368EE81BE79B530082969A /* TransientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EB01B0DF85300B32B18 /* TransientTests.swift */; };
 		52368EE91BE79B560082969A /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E903A8B1B66338C004CDFC4 /* TestHelper.swift */; };
-		52E1694D1BE808B200116EA1 /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52E1694D1BE808B200116EA1 /* Transient.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* Transient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52E1694E1BE808B900116EA1 /* NSUserDefaults+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */; };
 		6E903A8C1B66338C004CDFC4 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E903A8B1B66338C004CDFC4 /* TestHelper.swift */; };
 		6E903A8D1B66338C004CDFC4 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E903A8B1B66338C004CDFC4 /* TestHelper.swift */; };
-		70264EA41B0DF85200B32B18 /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70264EAA1B0DF85300B32B18 /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70264E9E1B0DF85200B32B18 /* SwiftyUserDefaults.framework */; };
-		70264EB11B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EB01B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift */; };
+		70264EA41B0DF85200B32B18 /* Transient.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* Transient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70264EAA1B0DF85300B32B18 /* Transient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70264E9E1B0DF85200B32B18 /* Transient.framework */; };
+		70264EB11B0DF85300B32B18 /* TransientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EB01B0DF85300B32B18 /* TransientTests.swift */; };
 		70264EBB1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */; };
-		D9D2CFB41B54AAF700D6ABCE /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D2CFAA1B54AAF600D6ABCE /* SwiftyUserDefaults.framework */; };
-		D9D2CFC11B54AB2F00D6ABCE /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D2CFB41B54AAF700D6ABCE /* Transient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D2CFAA1B54AAF600D6ABCE /* Transient.framework */; };
+		D9D2CFC11B54AB2F00D6ABCE /* Transient.h in Headers */ = {isa = PBXBuildFile; fileRef = 70264EA31B0DF85200B32B18 /* Transient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9D2CFC21B54AB3500D6ABCE /* NSUserDefaults+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */; };
-		D9D2CFC31B54AB3B00D6ABCE /* SwiftyUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EB01B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift */; };
+		D9D2CFC31B54AB3B00D6ABCE /* TransientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70264EB01B0DF85300B32B18 /* TransientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,21 +48,21 @@
 			containerPortal = 70264E951B0DF85200B32B18 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 52368ECE1BE79A9B0082969A;
-			remoteInfo = "SwiftyUserDefaults tvOS";
+			remoteInfo = "Transient tvOS";
 		};
 		70264EAB1B0DF85300B32B18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 70264E951B0DF85200B32B18 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 70264E9D1B0DF85200B32B18;
-			remoteInfo = SwiftyUserDefaults;
+			remoteInfo = Transient;
 		};
 		D9D2CFB51B54AAF700D6ABCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 70264E951B0DF85200B32B18 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D9D2CFA91B54AAF600D6ABCE;
-			remoteInfo = "SwiftyUserDefaults Mac";
+			remoteInfo = "Transient macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -71,19 +71,19 @@
 		4CAB4F881D2F5E8D000466F8 /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		4CAB4F8D1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Functions.swift"; sourceTree = "<group>"; };
 		4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Subscripts.swift"; sourceTree = "<group>"; };
-		52368ECF1BE79A9B0082969A /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52368EDD1BE79B350082969A /* SwiftyUserDefaults tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyUserDefaults tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52E169451BE8089000116EA1 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52368ECF1BE79A9B0082969A /* Transient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52368EDD1BE79B350082969A /* Transient iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transient iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E169451BE8089000116EA1 /* Transient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E903A8B1B66338C004CDFC4 /* TestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
-		70264E9E1B0DF85200B32B18 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70264E9E1B0DF85200B32B18 /* Transient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70264EA21B0DF85200B32B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyUserDefaults.h; sourceTree = "<group>"; };
-		70264EA91B0DF85300B32B18 /* SwiftyUserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyUserDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70264EA31B0DF85200B32B18 /* Transient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transient.h; sourceTree = "<group>"; };
+		70264EA91B0DF85300B32B18 /* Transient iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transient iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70264EAF1B0DF85300B32B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70264EB01B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyUserDefaultsTests.swift; sourceTree = "<group>"; };
+		70264EB01B0DF85300B32B18 /* TransientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransientTests.swift; sourceTree = "<group>"; };
 		70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Archive.swift"; sourceTree = "<group>"; };
-		D9D2CFAA1B54AAF600D6ABCE /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9D2CFB31B54AAF600D6ABCE /* SwiftyUserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyUserDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D2CFAA1B54AAF600D6ABCE /* Transient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D2CFB31B54AAF600D6ABCE /* Transient iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transient iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52368EE21BE79B350082969A /* SwiftyUserDefaults.framework in Frameworks */,
+				52368EE21BE79B350082969A /* Transient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70264EAA1B0DF85300B32B18 /* SwiftyUserDefaults.framework in Frameworks */,
+				70264EAA1B0DF85300B32B18 /* Transient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D2CFB41B54AAF700D6ABCE /* SwiftyUserDefaults.framework in Frameworks */,
+				D9D2CFB41B54AAF700D6ABCE /* Transient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,26 +145,26 @@
 		4CAB4F7C1D2F5B35000466F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				70264EA31B0DF85200B32B18 /* SwiftyUserDefaults.h */,
 				70264EA21B0DF85200B32B18 /* Info.plist */,
+				70264EA31B0DF85200B32B18 /* Transient.h */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4CAB4F871D2F5E6E000466F8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */,
 				4CAB4F8D1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift */,
 				4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */,
-				70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */,
 			);
-			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		70264E941B0DF85200B32B18 = {
 			isa = PBXGroup;
 			children = (
-				70264EA01B0DF85200B32B18 /* SwiftyUserDefaults */,
+				70264EA01B0DF85200B32B18 /* Sources */,
 				70264EAD1B0DF85300B32B18 /* Tests */,
 				70264E9F1B0DF85200B32B18 /* Products */,
 			);
@@ -173,35 +173,34 @@
 		70264E9F1B0DF85200B32B18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70264E9E1B0DF85200B32B18 /* SwiftyUserDefaults.framework */,
-				70264EA91B0DF85300B32B18 /* SwiftyUserDefaultsTests.xctest */,
-				D9D2CFAA1B54AAF600D6ABCE /* SwiftyUserDefaults.framework */,
-				D9D2CFB31B54AAF600D6ABCE /* SwiftyUserDefaultsTests.xctest */,
-				52368ECF1BE79A9B0082969A /* SwiftyUserDefaults.framework */,
-				52368EDD1BE79B350082969A /* SwiftyUserDefaults tvOSTests.xctest */,
-				52E169451BE8089000116EA1 /* SwiftyUserDefaults.framework */,
+				70264E9E1B0DF85200B32B18 /* Transient.framework */,
+				70264EA91B0DF85300B32B18 /* Transient iOS.xctest */,
+				D9D2CFAA1B54AAF600D6ABCE /* Transient.framework */,
+				D9D2CFB31B54AAF600D6ABCE /* Transient iOS.xctest */,
+				52368ECF1BE79A9B0082969A /* Transient.framework */,
+				52368EDD1BE79B350082969A /* Transient iOS.xctest */,
+				52E169451BE8089000116EA1 /* Transient.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70264EA01B0DF85200B32B18 /* SwiftyUserDefaults */ = {
+		70264EA01B0DF85200B32B18 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				4CAB4F871D2F5E6E000466F8 /* Extensions */,
-				4CAB4F7D1D2F5E37000466F8 /* Proxy.swift */,
-				4CAB4F881D2F5E8D000466F8 /* Key.swift */,
 				4CAB4F7C1D2F5B35000466F8 /* Supporting Files */,
+				4CAB4F881D2F5E8D000466F8 /* Key.swift */,
+				4CAB4F7D1D2F5E37000466F8 /* Proxy.swift */,
 			);
-			name = SwiftyUserDefaults;
 			path = Sources;
 			sourceTree = "<group>";
 		};
 		70264EAD1B0DF85300B32B18 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				70264EB01B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift */,
-				6E903A8B1B66338C004CDFC4 /* TestHelper.swift */,
 				70264EAE1B0DF85300B32B18 /* Supporting Files */,
+				70264EB01B0DF85300B32B18 /* TransientTests.swift */,
+				6E903A8B1B66338C004CDFC4 /* TestHelper.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -211,7 +210,7 @@
 			children = (
 				70264EAF1B0DF85300B32B18 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +220,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52368ED71BE79AA60082969A /* SwiftyUserDefaults.h in Headers */,
+				52368ED71BE79AA60082969A /* Transient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +228,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E1694D1BE808B200116EA1 /* SwiftyUserDefaults.h in Headers */,
+				52E1694D1BE808B200116EA1 /* Transient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +236,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70264EA41B0DF85200B32B18 /* SwiftyUserDefaults.h in Headers */,
+				70264EA41B0DF85200B32B18 /* Transient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,16 +244,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D2CFC11B54AB2F00D6ABCE /* SwiftyUserDefaults.h in Headers */,
+				D9D2CFC11B54AB2F00D6ABCE /* Transient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		52368ECE1BE79A9B0082969A /* SwiftyUserDefaults tvOS */ = {
+		52368ECE1BE79A9B0082969A /* Transient tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52368ED61BE79A9B0082969A /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults tvOS" */;
+			buildConfigurationList = 52368ED61BE79A9B0082969A /* Build configuration list for PBXNativeTarget "Transient tvOS" */;
 			buildPhases = (
 				52368ECA1BE79A9B0082969A /* Sources */,
 				52368ECB1BE79A9B0082969A /* Frameworks */,
@@ -265,14 +264,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftyUserDefaults tvOS";
-			productName = "SwiftyUserDefaults tvOS";
-			productReference = 52368ECF1BE79A9B0082969A /* SwiftyUserDefaults.framework */;
+			name = "Transient tvOS";
+			productName = "Transient tvOS";
+			productReference = 52368ECF1BE79A9B0082969A /* Transient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		52368EDC1BE79B350082969A /* SwiftyUserDefaults tvOSTests */ = {
+		52368EDC1BE79B350082969A /* Transient tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52368EE51BE79B350082969A /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults tvOSTests" */;
+			buildConfigurationList = 52368EE51BE79B350082969A /* Build configuration list for PBXNativeTarget "Transient tvOSTests" */;
 			buildPhases = (
 				52368ED91BE79B350082969A /* Sources */,
 				52368EDA1BE79B350082969A /* Frameworks */,
@@ -283,14 +282,14 @@
 			dependencies = (
 				52368EE41BE79B350082969A /* PBXTargetDependency */,
 			);
-			name = "SwiftyUserDefaults tvOSTests";
-			productName = "SwiftyUserDefaults tvOSTests";
-			productReference = 52368EDD1BE79B350082969A /* SwiftyUserDefaults tvOSTests.xctest */;
+			name = "Transient tvOSTests";
+			productName = "Transient tvOSTests";
+			productReference = 52368EDD1BE79B350082969A /* Transient iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		52E169441BE8089000116EA1 /* SwiftyUserDefaults watchOS */ = {
+		52E169441BE8089000116EA1 /* Transient watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52E1694C1BE8089000116EA1 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults watchOS" */;
+			buildConfigurationList = 52E1694C1BE8089000116EA1 /* Build configuration list for PBXNativeTarget "Transient watchOS" */;
 			buildPhases = (
 				52E169401BE8089000116EA1 /* Sources */,
 				52E169411BE8089000116EA1 /* Frameworks */,
@@ -301,14 +300,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftyUserDefaults watchOS";
-			productName = "SwiftyUserDefaults watchOS";
-			productReference = 52E169451BE8089000116EA1 /* SwiftyUserDefaults.framework */;
+			name = "Transient watchOS";
+			productName = "Transient watchOS";
+			productReference = 52E169451BE8089000116EA1 /* Transient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		70264E9D1B0DF85200B32B18 /* SwiftyUserDefaults */ = {
+		70264E9D1B0DF85200B32B18 /* Transient iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70264EB41B0DF85300B32B18 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */;
+			buildConfigurationList = 70264EB41B0DF85300B32B18 /* Build configuration list for PBXNativeTarget "Transient iOS" */;
 			buildPhases = (
 				70264E991B0DF85200B32B18 /* Sources */,
 				70264E9A1B0DF85200B32B18 /* Frameworks */,
@@ -319,14 +318,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftyUserDefaults;
-			productName = SwiftyUserDefaults;
-			productReference = 70264E9E1B0DF85200B32B18 /* SwiftyUserDefaults.framework */;
+			name = "Transient iOS";
+			productName = Transient;
+			productReference = 70264E9E1B0DF85200B32B18 /* Transient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		70264EA81B0DF85300B32B18 /* SwiftyUserDefaultsTests */ = {
+		70264EA81B0DF85300B32B18 /* Transient iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70264EB71B0DF85300B32B18 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaultsTests" */;
+			buildConfigurationList = 70264EB71B0DF85300B32B18 /* Build configuration list for PBXNativeTarget "Transient iOSTests" */;
 			buildPhases = (
 				70264EA51B0DF85300B32B18 /* Sources */,
 				70264EA61B0DF85300B32B18 /* Frameworks */,
@@ -337,14 +336,14 @@
 			dependencies = (
 				70264EAC1B0DF85300B32B18 /* PBXTargetDependency */,
 			);
-			name = SwiftyUserDefaultsTests;
+			name = "Transient iOSTests";
 			productName = SwiftyUserDefaultsTests;
-			productReference = 70264EA91B0DF85300B32B18 /* SwiftyUserDefaultsTests.xctest */;
+			productReference = 70264EA91B0DF85300B32B18 /* Transient iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D9D2CFA91B54AAF600D6ABCE /* SwiftyUserDefaults Mac */ = {
+		D9D2CFA91B54AAF600D6ABCE /* Transient macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9D2CFBF1B54AAF700D6ABCE /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults Mac" */;
+			buildConfigurationList = D9D2CFBF1B54AAF700D6ABCE /* Build configuration list for PBXNativeTarget "Transient macOS" */;
 			buildPhases = (
 				D9D2CFA51B54AAF600D6ABCE /* Sources */,
 				D9D2CFA61B54AAF600D6ABCE /* Frameworks */,
@@ -355,14 +354,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftyUserDefaults Mac";
-			productName = "SwiftyUserDefaults Mac";
-			productReference = D9D2CFAA1B54AAF600D6ABCE /* SwiftyUserDefaults.framework */;
+			name = "Transient macOS";
+			productName = "Transient macOS";
+			productReference = D9D2CFAA1B54AAF600D6ABCE /* Transient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D9D2CFB21B54AAF600D6ABCE /* SwiftyUserDefaults MacTests */ = {
+		D9D2CFB21B54AAF600D6ABCE /* Transient macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9D2CFC01B54AAF700D6ABCE /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults MacTests" */;
+			buildConfigurationList = D9D2CFC01B54AAF700D6ABCE /* Build configuration list for PBXNativeTarget "Transient macOSTests" */;
 			buildPhases = (
 				D9D2CFAF1B54AAF600D6ABCE /* Sources */,
 				D9D2CFB01B54AAF600D6ABCE /* Frameworks */,
@@ -373,9 +372,9 @@
 			dependencies = (
 				D9D2CFB61B54AAF700D6ABCE /* PBXTargetDependency */,
 			);
-			name = "SwiftyUserDefaults MacTests";
-			productName = "SwiftyUserDefaults MacTests";
-			productReference = D9D2CFB31B54AAF600D6ABCE /* SwiftyUserDefaultsTests.xctest */;
+			name = "Transient macOSTests";
+			productName = "Transient MacTests";
+			productReference = D9D2CFB31B54AAF600D6ABCE /* Transient iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -410,7 +409,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 70264E981B0DF85200B32B18 /* Build configuration list for PBXProject "SwiftyUserDefaults" */;
+			buildConfigurationList = 70264E981B0DF85200B32B18 /* Build configuration list for PBXProject "Transient" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -422,13 +421,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70264E9D1B0DF85200B32B18 /* SwiftyUserDefaults */,
-				70264EA81B0DF85300B32B18 /* SwiftyUserDefaultsTests */,
-				D9D2CFA91B54AAF600D6ABCE /* SwiftyUserDefaults Mac */,
-				D9D2CFB21B54AAF600D6ABCE /* SwiftyUserDefaults MacTests */,
-				52368ECE1BE79A9B0082969A /* SwiftyUserDefaults tvOS */,
-				52368EDC1BE79B350082969A /* SwiftyUserDefaults tvOSTests */,
-				52E169441BE8089000116EA1 /* SwiftyUserDefaults watchOS */,
+				70264E9D1B0DF85200B32B18 /* Transient iOS */,
+				70264EA81B0DF85300B32B18 /* Transient iOSTests */,
+				D9D2CFA91B54AAF600D6ABCE /* Transient macOS */,
+				D9D2CFB21B54AAF600D6ABCE /* Transient macOSTests */,
+				52368ECE1BE79A9B0082969A /* Transient tvOS */,
+				52368EDC1BE79B350082969A /* Transient tvOSTests */,
+				52E169441BE8089000116EA1 /* Transient watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -502,7 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52368EE81BE79B530082969A /* SwiftyUserDefaultsTests.swift in Sources */,
+				52368EE81BE79B530082969A /* TransientTests.swift in Sources */,
 				52368EE91BE79B560082969A /* TestHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,7 +534,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70264EB11B0DF85300B32B18 /* SwiftyUserDefaultsTests.swift in Sources */,
+				70264EB11B0DF85300B32B18 /* TransientTests.swift in Sources */,
 				6E903A8C1B66338C004CDFC4 /* TestHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,7 +555,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D2CFC31B54AB3B00D6ABCE /* SwiftyUserDefaultsTests.swift in Sources */,
+				D9D2CFC31B54AB3B00D6ABCE /* TransientTests.swift in Sources */,
 				6E903A8D1B66338C004CDFC4 /* TestHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,17 +565,17 @@
 /* Begin PBXTargetDependency section */
 		52368EE41BE79B350082969A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52368ECE1BE79A9B0082969A /* SwiftyUserDefaults tvOS */;
+			target = 52368ECE1BE79A9B0082969A /* Transient tvOS */;
 			targetProxy = 52368EE31BE79B350082969A /* PBXContainerItemProxy */;
 		};
 		70264EAC1B0DF85300B32B18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 70264E9D1B0DF85200B32B18 /* SwiftyUserDefaults */;
+			target = 70264E9D1B0DF85200B32B18 /* Transient iOS */;
 			targetProxy = 70264EAB1B0DF85300B32B18 /* PBXContainerItemProxy */;
 		};
 		D9D2CFB61B54AAF700D6ABCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9D2CFA91B54AAF600D6ABCE /* SwiftyUserDefaults Mac */;
+			target = D9D2CFA91B54AAF600D6ABCE /* Transient macOS */;
 			targetProxy = D9D2CFB51B54AAF700D6ABCE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -591,11 +590,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults;
-				PRODUCT_NAME = SwiftyUserDefaults;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -611,11 +610,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults;
-				PRODUCT_NAME = SwiftyUserDefaults;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -627,10 +626,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
+				PRODUCT_NAME = "Transient iOS";
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -639,10 +638,10 @@
 		52368EE71BE79B350082969A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
+				PRODUCT_NAME = "Transient iOS";
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -657,11 +656,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults;
-				PRODUCT_NAME = SwiftyUserDefaults;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -677,11 +676,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults;
-				PRODUCT_NAME = SwiftyUserDefaults;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -791,11 +790,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -810,11 +809,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -830,10 +829,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
+				PRODUCT_NAME = "Transient iOS";
 			};
 			name = Debug;
 		};
@@ -844,10 +843,10 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
+				PRODUCT_NAME = "Transient iOS";
 			};
 			name = Release;
 		};
@@ -862,12 +861,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults;
-				PRODUCT_NAME = SwiftyUserDefaults;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -883,12 +882,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults;
-				PRODUCT_NAME = SwiftyUserDefaults;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -900,11 +899,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults.tests;
-				PRODUCT_NAME = SwiftyUserDefaultsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
+				PRODUCT_NAME = "Transient iOS";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -913,11 +912,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyUserDefaults.tests;
-				PRODUCT_NAME = SwiftyUserDefaultsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
+				PRODUCT_NAME = "Transient iOS";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -925,7 +924,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52368ED61BE79A9B0082969A /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults tvOS" */ = {
+		52368ED61BE79A9B0082969A /* Build configuration list for PBXNativeTarget "Transient tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52368ED41BE79A9B0082969A /* Debug */,
@@ -934,7 +933,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52368EE51BE79B350082969A /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults tvOSTests" */ = {
+		52368EE51BE79B350082969A /* Build configuration list for PBXNativeTarget "Transient tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52368EE61BE79B350082969A /* Debug */,
@@ -943,7 +942,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52E1694C1BE8089000116EA1 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults watchOS" */ = {
+		52E1694C1BE8089000116EA1 /* Build configuration list for PBXNativeTarget "Transient watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52E1694A1BE8089000116EA1 /* Debug */,
@@ -952,7 +951,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70264E981B0DF85200B32B18 /* Build configuration list for PBXProject "SwiftyUserDefaults" */ = {
+		70264E981B0DF85200B32B18 /* Build configuration list for PBXProject "Transient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70264EB21B0DF85300B32B18 /* Debug */,
@@ -961,7 +960,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70264EB41B0DF85300B32B18 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */ = {
+		70264EB41B0DF85300B32B18 /* Build configuration list for PBXNativeTarget "Transient iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70264EB51B0DF85300B32B18 /* Debug */,
@@ -970,7 +969,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70264EB71B0DF85300B32B18 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaultsTests" */ = {
+		70264EB71B0DF85300B32B18 /* Build configuration list for PBXNativeTarget "Transient iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70264EB81B0DF85300B32B18 /* Debug */,
@@ -979,7 +978,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9D2CFBF1B54AAF700D6ABCE /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults Mac" */ = {
+		D9D2CFBF1B54AAF700D6ABCE /* Build configuration list for PBXNativeTarget "Transient macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9D2CFBB1B54AAF700D6ABCE /* Debug */,
@@ -988,7 +987,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9D2CFC01B54AAF700D6ABCE /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults MacTests" */ = {
+		D9D2CFC01B54AAF700D6ABCE /* Build configuration list for PBXNativeTarget "Transient macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9D2CFBD1B54AAF700D6ABCE /* Debug */,

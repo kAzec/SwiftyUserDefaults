@@ -1,6 +1,6 @@
 import PackageDescription
 
 let package = Package(
-    exclude: ["Sources/Info.plist", "Sources/SwiftyUserDefaults.h"],
+    exclude: ["Sources/Info.plist", "Sources/Transient.h"],
     dependencies: []
 )
