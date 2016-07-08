@@ -408,7 +408,7 @@ class SwiftyUserDefaultsTests: XCTestCase {
         XCTAssert(Defaults[.strings] == [])
         XCTAssert(Defaults.havingKey(.strings))
         
-        Defaults.removeObject(forKey: .strings)
+        Defaults.removeObjectForKey(.strings)
         
         XCTAssert(Defaults[.strings] == [])
         XCTAssert(!Defaults.havingKey(.strings))
@@ -476,7 +476,7 @@ class SwiftyUserDefaultsTests: XCTestCase {
         XCTAssert(Defaults[key] == .A)
         Defaults[key] = .C
         XCTAssert(Defaults[key] == .C)
-        Defaults.removeObject(forKey: key)
+        Defaults.removeObjectForKey(key)
         XCTAssert(!Defaults.havingKey(key))
         XCTAssert(Defaults[key] == .A)
     }
