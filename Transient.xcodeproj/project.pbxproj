@@ -72,18 +72,18 @@
 		4CAB4F8D1D2F5F1D000466F8 /* NSUserDefaults+Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Functions.swift"; sourceTree = "<group>"; };
 		4CAB4F921D2F635F000466F8 /* NSUserDefaults+Subscripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Subscripts.swift"; sourceTree = "<group>"; };
 		52368ECF1BE79A9B0082969A /* Transient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52368EDD1BE79B350082969A /* Transient iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transient iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52368EDD1BE79B350082969A /* Transient tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transient tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E169451BE8089000116EA1 /* Transient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E903A8B1B66338C004CDFC4 /* TestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
 		70264E9E1B0DF85200B32B18 /* Transient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70264EA21B0DF85200B32B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70264EA31B0DF85200B32B18 /* Transient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transient.h; sourceTree = "<group>"; };
-		70264EA91B0DF85300B32B18 /* Transient iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transient iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70264EA91B0DF85300B32B18 /* Transient iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transient iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70264EAF1B0DF85300B32B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70264EB01B0DF85300B32B18 /* TransientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransientTests.swift; sourceTree = "<group>"; };
 		70264EBA1B0DF8B900B32B18 /* NSUserDefaults+Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Archive.swift"; sourceTree = "<group>"; };
 		D9D2CFAA1B54AAF600D6ABCE /* Transient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9D2CFB31B54AAF600D6ABCE /* Transient iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transient iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D2CFB31B54AAF600D6ABCE /* Transient macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transient macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,11 +174,11 @@
 			isa = PBXGroup;
 			children = (
 				70264E9E1B0DF85200B32B18 /* Transient.framework */,
-				70264EA91B0DF85300B32B18 /* Transient iOS.xctest */,
+				70264EA91B0DF85300B32B18 /* Transient iOSTests.xctest */,
 				D9D2CFAA1B54AAF600D6ABCE /* Transient.framework */,
-				D9D2CFB31B54AAF600D6ABCE /* Transient iOS.xctest */,
+				D9D2CFB31B54AAF600D6ABCE /* Transient macOSTests.xctest */,
 				52368ECF1BE79A9B0082969A /* Transient.framework */,
-				52368EDD1BE79B350082969A /* Transient iOS.xctest */,
+				52368EDD1BE79B350082969A /* Transient tvOSTests.xctest */,
 				52E169451BE8089000116EA1 /* Transient.framework */,
 			);
 			name = Products;
@@ -284,7 +284,7 @@
 			);
 			name = "Transient tvOSTests";
 			productName = "Transient tvOSTests";
-			productReference = 52368EDD1BE79B350082969A /* Transient iOS.xctest */;
+			productReference = 52368EDD1BE79B350082969A /* Transient tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		52E169441BE8089000116EA1 /* Transient watchOS */ = {
@@ -338,7 +338,7 @@
 			);
 			name = "Transient iOSTests";
 			productName = SwiftyUserDefaultsTests;
-			productReference = 70264EA91B0DF85300B32B18 /* Transient iOS.xctest */;
+			productReference = 70264EA91B0DF85300B32B18 /* Transient iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D9D2CFA91B54AAF600D6ABCE /* Transient macOS */ = {
@@ -374,7 +374,7 @@
 			);
 			name = "Transient macOSTests";
 			productName = "Transient MacTests";
-			productReference = D9D2CFB31B54AAF600D6ABCE /* Transient iOS.xctest */;
+			productReference = D9D2CFB31B54AAF600D6ABCE /* Transient macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -629,7 +629,7 @@
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
-				PRODUCT_NAME = "Transient iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -641,7 +641,7 @@
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
-				PRODUCT_NAME = "Transient iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -832,7 +832,7 @@
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
-				PRODUCT_NAME = "Transient iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -846,7 +846,7 @@
 				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
-				PRODUCT_NAME = "Transient iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -903,7 +903,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
-				PRODUCT_NAME = "Transient iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -916,7 +916,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.Transient.tests;
-				PRODUCT_NAME = "Transient iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = Release;
