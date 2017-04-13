@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52368EDC1BE79B350082969A"
-               BuildableName = "Transient iOS.xctest"
+               BuildableName = "Transient tvOSTests.xctest"
                BlueprintName = "Transient tvOSTests"
                ReferencedContainer = "container:Transient.xcodeproj">
             </BuildableReference>

@@ -2,6 +2,6 @@ import PackageDescription
 
 let package = Package(
     name: "Transient",
-    exclude: ["Sources/Supporting Files/Info.plist", "Sources/Supporting Files/Transient.h"],
+    exclude: ["Sources/Info.plist", "Sources/Transient.h"],
     dependencies: []
 )
